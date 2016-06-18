@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
+    @IBOutlet weak var imageView: UIImageView!
+    
+    
+    
+    @IBAction func showCat(sender: AnyObject) {
+        let pic = UIImage(named: "cat")
+        imageView.image = pic
+    }
+    
 }
 
